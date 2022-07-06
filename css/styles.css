@@ -76,7 +76,7 @@ padding: 38px 179px 47px 191px;
 display: flex;
 justify-content: space-between;
 align-items: center;
-margin: 104px auto 85px;
+margin-top: 134px;
 }
 
 .abouttitle {
@@ -127,14 +127,143 @@ margin: 104px auto 85px;
     padding: 53px 0px;
 }
 
-.headflex, .ftrflex {
+
+.headflex, .subscription, .ftrflex, .threeproposes {
     display: flex;
     justify-content: space-between;
     align-items: center;
 }
 
- {
+.subscription {
+    margin-top: 85px;
+}
+
+.btn_try {
+    background: #5454D4;
+    margin-left: 38px;
+}
+
+.img_subscrip {
+}
+
+
+.subscrip_text {
+    font-weight: 700;
+    font-size: 50px;
+    line-height: 57px;
+    letter-spacing: -1.56316px;
+    color: #19191B;
+    margin-top: 85px;
+    margin-bottom: 38px;
+}
+
+.subscrip_index {
     display: flex;
-    align-items: center;
-    justify-content: space-between;
+}
+
+.input_mail {
+        width: 302px;
+        height: 60px;
+        font-weight: 700;
+        font-size: 23x;
+        letter-spacing: -0.531474px;
+        color:#000000;
+        border: 1px solid #7087FF;
+        border-radius: 10px;
+        cursor: auto;
+        padding-left: 14px;
+        box-sizing: border-box;
+}
+
+.input_mail::placeholder, .input_mail {
+        font-weight: bold;
+        font-size: 17px;
+        line-height: 22px;
+        letter-spacing: -0.531474px;
+        color: #000000;
+}
+
+.input_mail:focus {
+    outline: none;
+}
+
+.plan {
+    margin-bottom: 132px;
+}
+
+.plan_text {
+    font-weight: 700;
+        font-size: 60px;
+        line-height: 70px;
+        letter-spacing: -1.87579px;
+        color: #19191B;
+        max-width: 504px;
+        margin-bottom: 110px;
+}
+
+.item {
+width: 330px;
+height: 441px;
+background: #f8f8f8;
+border-radius: 10px;
+text-align: center;
+padding: 34px 0 27px;
+}
+
+.item:hover {
+    background-color: #FF7143;
+   
+    transition: 500ms;
+    box-shadow: 0px 32px 34px rgba(255, 112, 59, 0.317827);
+}
+
+ .item:hover .item_text, .item:hover .item_title, .item:hover .itemli, .item:hover .item_titlefree{
+color: white;
+transition: 500ms;
+}
+
+.item_text {
+font-size: 18px;
+line-height: 28px;
+letter-spacing: -0.562737px;
+color: #696871;
+}
+
+.item_title {
+font-weight: 700;
+font-size: 60px;
+line-height: 56px;
+letter-spacing: -1.03448px;
+color: #1D293F;
+margin: 22px 0 28px;
+}
+
+.item_titlefree {
+margin: 22px 0 39px;
+}
+
+.formonth {
+font-size: 28px;
+}
+
+.itemli {
+list-style: none;
+font-weight: 400;
+font-size: 17px;
+line-height: 50px;
+letter-spacing: -0.531474px;
+color: #696871;
+}
+
+.btn_item {
+width: 285px;
+background: rgb(255, 255, 255);
+color: black;
+margin-top: 36px;
+}
+
+.item:hover .btn_item {
+    background: #9F3919;
+    color: white;
+    transition: 500ms;
 }
