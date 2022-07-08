@@ -267,3 +267,18 @@ margin-top: 36px;
     color: white;
     transition: 500ms;
 }
+
+@media screen and (max-width: 550px) {
+    .container {max-width: 375px}
+    .headr .navi, .head_btn { display:none;}
+    .about {flex-direction: column; text-align: center;}
+    .btn_violet {margin: 40px; padding: 0;}
+    .btn_white {padding: 0; margin: 0;}
+    .img_hero {margin-top: 40px; margin-bottom: 0; padding-bottom: 0; align-content: center;}
+    .subscription {flex-direction: column-reverse; margin-top: 20px;}
+    .subscrip_text {margin-top: 40px; padding-top: 0;}
+    .btn_try {margin-top: 20px;}
+    form {align-content: center;}
+    .botan {margin-top: 30px;}
+    .plan {max-width: 550px;}
+}
